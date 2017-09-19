@@ -2,7 +2,6 @@
 # Extra Python files, PDFs
 .ipynb_checkpoints/
 *.py[cod]
-*.pdf
 
 # Extra LaTex files
 *.aux
