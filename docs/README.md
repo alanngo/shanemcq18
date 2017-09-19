@@ -36,11 +36,12 @@ The following are some examples of labs that I have written or heavily edited.
 
 Most of my favorite math classes have focused on numerical analysis, partial differential equations, or statistical machine learning.
 The following are a few projects that I completed as part of these courses.
-- [Acoustic Scattering](https://github.com/shanemcq18/Portfolio/raw/master/docs/laminar_flow.pdf): a finite difference approach to a solving wave scattering problem with an artificial boundary condition to reduce reflective noise.
+- [Acoustic Scattering](https://github.com/shanemcq18/Portfolio/raw/master/docs/acoustic_scattering.pdf): a finite difference approach to a solving wave scattering problem with an artificial boundary condition to reduce reflective noise.
 - [Laminar Flow](https://github.com/shanemcq18/Portfolio/raw/master/docs/laminar_flow.pdf): an application of the ADI algorithm (a predictor-corrector method) to solving a PDE modeling pressure-driven laminar flow in two dimensions.
 - [Grid Generation](https://github.com/shanemcq18/Portfolio/raw/master/docs/grid_generation.pdf): a comparison of the Amsden-Hirt and Winslow algorithms for generating smooth grid domains over nontraditional domains.
 - [A Modified Lorenz System](https://github.com/shanemcq18/Portfolio/raw/master/docs/lorenz_stability.html): a stability/conditioning analysis of a five-dimensional modification of the famous Lorenz system.
-This was written as a Jupyter Notebook (IPython Notebook), then exported as an html, so you can view it in a browser.
+This was written as a Jupyter Notebook (IPython Notebook).
+Right click the link, select "Save Link As" (or similar), then view the downloaded html file in a browser.
 - [HMMs for Collaborative Works](https://github.com/shanemcq18/Portfolio/raw/master/docs/hmm_nlp.pdf): a machine learning experiment using parts of speech, hidden Markov models, and a little bit of nearest-neighbor voting to assign each sentence in a document to one of several potential authors.
 
 #### Knot Theory
