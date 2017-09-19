@@ -1,0 +1,14 @@
+
+# Extra Python files, PDFs
+.ipynb_checkpoints/
+*.py[cod]
+*.pdf
+
+# Extra LaTex files
+*.aux
+*.log
+*.out
+*.toc
+
+# Extra Mac files
+*.DS_Store
