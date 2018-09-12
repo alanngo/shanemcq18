@@ -5,13 +5,15 @@ I've also lived in Chicago and Albuquerque, have visited ten countries, and am f
 Besides mathematics, I also love music: I've played the trumpet for over a decade and am a big fan of classical music and jazz.
 My favorite sport is ultimate frisbee, which is uncommonly popular in Utah.
 
-I helped pioneer a new applied and computational mathematics emphasis (ACME) at BYU, a program that emphasizes connecting solid theoretical mathematics with scientific computing in Python (see below).
-As a graduate student, my research interests have included numerical methods for PDEs, numerical analysis, data assimilation, stochastic dynamical systems, Bayesian statistics, and machine learning.
+As an undergraduate and masters student at Brigham Young University (BYU), I helped pioneer a new applied and computational mathematics emphasis (ACME), a program that emphasizes connecting solid theoretical mathematics with scientific computing in Python (see below).
+I am currently a Ph.D. student at the Univeristy of Texas, Austin, in the Computational Science, Engineering, and Mathematics program (CSEM) at the Institute for Computational Engineering and Sciences (ICES).
+My research interests include numerical methods for PDEs, numerical analysis, data assimilation, inverse problems, Bayesian statistics, and machine learning.
 
 My wife Laura earned a BS in Statistics from BYU and worked for a few years on the logistics engineering team for Wynright Corporation in Salt Lake City.
 We were married in mid 2015, just before I started my senior year at BYU.
-A year an a half later, the day after the last day of my first semester as a graduate student, we welcomed our son Andrew into the family.
+A year an a half later, just after my first set of final exams as a masters student, we welcomed our son Andrew into the family.
 He enjoys hitting pots with a wooden spoon, playing hide and seek, and watching his mom make dinner.
+We are expecting a second son this November.
 <!-- TODO: insert picture! -->
 
 # 2. Projects
