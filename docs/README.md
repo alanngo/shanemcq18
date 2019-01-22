@@ -2,7 +2,7 @@
 
 I'm a first-year Ph.D. student at the <a href="https://www.ices.utexas.edu/" target="\_blank">Institute for Computational Engineering and Sciences</a> (ICES) at the University of Texas at Austin.
 I've just started working with <a href="http://kiwi.ices.utexas.edu/" target="\_blank">Dr. Karen Willcox</a> in the new DOE-funded <a href="https://www.ices.utexas.edu/about/news/527/" target="\blank">AEOLUS</a> center on reduced order modeling with applications to advanced manufacturing and materials.
-In August 2018 I graduated from Brigham Young University (BYU) with a M.S. in mathematics; in 2016 I earned a B.S. in applied and computational mathematics, also from BYU.
+In 2018 I graduated from Brigham Young University (BYU) with a M.S. in mathematics; in 2016 I earned a B.S. in applied and computational mathematics, also from BYU.
 
 My wife Laura and I live in Austin with our two young boys.
 I love jazz, ultimate frisbee, and mint chocolate ice cream.
