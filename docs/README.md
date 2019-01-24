@@ -1,14 +1,26 @@
 ### About Me
 
 I'm a first-year Ph.D. student at the <a href="https://www.ices.utexas.edu/" target="\_blank">Institute for Computational Engineering and Sciences</a> (ICES) at the University of Texas at Austin.
-I've just started working with <a href="http://kiwi.ices.utexas.edu/" target="\_blank">Dr. Karen Willcox</a> in the new DOE-funded <a href="https://www.ices.utexas.edu/about/news/527/" target="\blank">AEOLUS</a> center on reduced order modeling with applications to advanced manufacturing and materials.
+I've just started working with <a href="http://kiwi.ices.utexas.edu/" target="\_blank">Dr. Karen Willcox</a> in the new DOE-funded <a href="https://www.ices.utexas.edu/about/news/527/" target="\blank">AEOLUS</a> center.
 In 2018 I graduated from Brigham Young University (BYU) with a M.S. in mathematics; in 2016 I earned a B.S. in applied and computational mathematics, also from BYU.
 
 My wife Laura and I live in Austin with our two young boys.
 I love jazz, ultimate frisbee, and mint chocolate ice cream.
-They love disney movies, playing ball, and basically any kind of ice cream.
+They love Disney movies, playing ball, and basically any kind of ice cream.
 Laura has a B.S. in statistics from BYU and worked for a few years on the logistics engineering team for Wynright Corporation in Salt Lake City.
 We were married in 2015.
+
+### Research
+
+I'm currently working with Dr. Karen Willcox at ICES on problems related to reduced order modeling and phase field models, with applications to advanced manufacturing and materials.
+I am also interested in numerical methods for PDEs, numerical analysis, data assimilation, inverse problems, Bayesian statistics, and machine learning.
+
+At BYU, I worked with Dr. Jared Whitehead on several projects related to data assimilation, mantle convection, and optimal transport.
+My masters thesis, <a href="https://scholarsarchive.byu.edu/etd/6951/" target="\_blank">Data Assimilation in the Boussinesq Approximation for Mantle Convection</a>, was a springboard for an upcoming journal publication.
+
+My first exposure to formal mathematical research was at BYU with <a href="http://users.monash.edu/~jpurcell" target="\_blank">Dr. Jessica Purcell</a>, who has since moved to Monash University in Australia.
+Dr. Purcell specializes in hyperbolic knot theory, so the project I worked on involved some very interesting combinatorial proofs, topological ideas, and fun pictures.
+See <a href="https://www.worldscientific.com/doi/abs/10.1142/S0218216515500443" target="\_blank">here</a> or <a href="https://arxiv.org/pdf/1406.0195.pdf" target="\_blank">the ArXiv</a> for our publication.
 
 ### Foundations of Applied Mathematics
 
@@ -24,28 +36,16 @@ I also managed the student development team for the labs, designed an automated 
 The lab manuals are available at <a href="https://foundations-of-applied-mathematics.github.io/" target="\_blank">foundations-of-applied-mathematics.github.io</a>.
 I especially like the labs on Facial Recognition (Volume 1), the PageRank Algorithm (Volume 1), and Markov Chains (Volume 2).
 
-### Research
-
-I'm currently working with Dr. Karen Willcox at ICES on problems related to reduced order modeling and phase field models.
-I am also interested in numerical methods for PDEs, numerical analysis, data assimilation, inverse problems, Bayesian statistics, and machine learning.
-
-At BYU, I worked with Dr. Jared Whitehead on several projects related to data assimilation, mantle convection, and optimal transport.
-My masters thesis, <a href="https://scholarsarchive.byu.edu/etd/6951/" target="\_blank">Data Assimilation in the Boussinesq Approximation for Mantle Convection</a>, was a springboard for an upcoming journal publication.
-
-My first exposure to formal mathematical research was at BYU with <a href="http://users.monash.edu/~jpurcell" target="\_blank">Dr. Jessica Purcell</a>, who has since moved to Monash University in Australia.
-Dr. Purcell specializes in hyperbolic knot theory, so the project I worked on involved some very interesting combinatorial proofs, topological ideas, and fun pictures.
-See <a href="https://www.worldscientific.com/doi/abs/10.1142/S0218216515500443" target="\_blank">here</a> or <a href="https://arxiv.org/pdf/1406.0195.pdf" target="\_blank">the ArXiv</a> for our publication.
-
 ### Class Projects
 
 Most of my favorite math classes have focused on numerical analysis, partial differential equations, or statistical machine learning.
 The following are a few projects that I completed as part of these courses.
-- [Acoustic Scattering](https://github.com/shanemcq18/Portfolio/raw/master/docs/acoustic_scattering.pdf): a finite difference approach to a solving wave scattering problem with an artificial boundary condition to reduce reflective noise.
+- [Acoustic Scattering](https://github.com/shanemcq18/Portfolio/raw/master/docs/acoustic_scattering.pdf): a finite difference approach to solving a wave scattering problem with an artificial boundary condition to reduce reflective noise.
 - [Laminar Flow](https://github.com/shanemcq18/Portfolio/raw/master/docs/laminar_flow.pdf): an application of the ADI algorithm (a predictor-corrector method) to solving a PDE modeling pressure-driven laminar flow in two dimensions.
 - [Grid Generation](https://github.com/shanemcq18/Portfolio/raw/master/docs/grid_generation.pdf): a comparison of the Amsden-Hirt and Winslow algorithms for generating smooth grid domains over nontraditional domains.
 - [A Modified Lorenz System](https://github.com/shanemcq18/Portfolio/raw/master/docs/lorenz_stability.html): a stability/conditioning analysis of a five-dimensional modification of the famous Lorenz system.
-This was written as a Jupyter Notebook (IPython Notebook).
-Right click the link, select "Save Link As" (or similar), then view the downloaded html file in a browser.
+This project was written as a Jupyter Notebook (IPython Notebook).
+Right click the link, select `Save Link As` (or similar), then view the downloaded html file in a browser.
 - [HMMs for Collaborative Works](https://github.com/shanemcq18/Portfolio/raw/master/docs/hmm_nlp.pdf): a machine learning experiment using parts of speech, hidden Markov models, and a little bit of nearest-neighbor voting to assign each sentence in a document to one of several potential authors.
 
 <!-- ## Resume
