@@ -1,7 +1,7 @@
 ### About Me
 
-I'm a first-year Ph.D. student at the <a href="https://www.ices.utexas.edu/" target="\_blank">Institute for Computational Engineering and Sciences</a> (ICES) at the University of Texas at Austin.
-I've just started working with <a href="http://kiwi.ices.utexas.edu/" target="\_blank">Dr. Karen Willcox</a> in the new DOE-funded <a href="https://www.ices.utexas.edu/about/news/527/" target="\blank">AEOLUS</a> center.
+I'm a Ph.D. student at the <a href="https://www.oden.utexas.edu/" target="\_blank">Oden Institute for Computational Engineering and Sciences</a> (formerly ICES) at the University of Texas at Austin.
+I work with <a href="http://kiwi.oden.utexas.edu/" target="\_blank">Dr. Karen Willcox</a> in the new DOE-funded <a href="https://www.oden.utexas.edu/about/news/527/" target="\blank">AEOLUS</a> center.
 In 2018 I graduated from Brigham Young University (BYU) with a M.S. in mathematics; in 2016 I earned a B.S. in applied and computational mathematics, also from BYU.
 
 My wife Laura and I live in Austin with our two young boys.
@@ -12,11 +12,11 @@ We were married in 2015.
 
 ### Research
 
-I'm currently working with Dr. Karen Willcox at ICES on problems related to reduced order modeling and phase field models, with applications to advanced manufacturing and materials.
-I am also interested in numerical methods for PDEs, numerical analysis, data assimilation, inverse problems, Bayesian statistics, and machine learning.
+I'm currently working with Dr. Karen Willcox at the Oden Institute on parametric reduced order modeling, with advanced manufacturing and materials applications.
+I am also interested in numerical analysis, numerical methods for PDEs, inverse problems, data assimilation, Bayesian statistics, and machine learning.
 
 At BYU, I worked with Dr. Jared Whitehead on several projects related to data assimilation, mantle convection, and optimal transport.
-My masters thesis, <a href="https://scholarsarchive.byu.edu/etd/6951/" target="\_blank">Data Assimilation in the Boussinesq Approximation for Mantle Convection</a>, was a springboard for an upcoming journal publication.
+My masters thesis, <a href="https://scholarsarchive.byu.edu/etd/6951/" target="\_blank">Data Assimilation in the Boussinesq Approximation for Mantle Convection</a>, was a springboard for an upcoming journal publication, <a href="https://arxiv.org/abs/1903.01508/" target="\_blank">Data Assimilation in Large-Prandtl Rayleigh-Bénard Convection from Thermal Measurements</a>, which has been submitted to SIADS.
 
 My first exposure to formal mathematical research was at BYU with <a href="http://users.monash.edu/~jpurcell" target="\_blank">Dr. Jessica Purcell</a>, who has since moved to Monash University in Australia.
 Dr. Purcell specializes in hyperbolic knot theory, so the project I worked on involved some very interesting combinatorial proofs, topological ideas, and fun pictures.
@@ -38,7 +38,7 @@ I especially like the labs on Facial Recognition (Volume 1), the PageRank Algori
 
 ### Class Projects
 
-Most of my favorite math classes have focused on numerical analysis, partial differential equations, or statistical machine learning.
+Most of my favorite classes have focused on numerical analysis, partial differential equations, or statistical machine learning.
 The following are a few projects that I completed as part of these courses.
 - [Acoustic Scattering](https://github.com/shanemcq18/Portfolio/raw/master/docs/acoustic_scattering.pdf): a finite difference approach to solving a wave scattering problem with an artificial boundary condition to reduce reflective noise.
 - [Laminar Flow](https://github.com/shanemcq18/Portfolio/raw/master/docs/laminar_flow.pdf): an application of the ADI algorithm (a predictor-corrector method) to solving a PDE modeling pressure-driven laminar flow in two dimensions.
