@@ -9,10 +9,8 @@ SortedList: A doubly linked list that maintains a total ordering and that also
 Author: Shane McQuarrie
 """
 
-from __future__ import print_function, division
 
-
-class LinkedListNode(object):
+class LinkedListNode:
     """A node class for doubly linked lists.
     Contains references to the next and previous nodes in the linked list.
     """
@@ -25,7 +23,7 @@ class LinkedListNode(object):
         self.prev = None
 
 
-class LinkedList(object): # ===================================================
+class LinkedList: # ===========================================================
     """Doubly linked list data structure class.
 
     Attributes:
@@ -176,12 +174,12 @@ class LinkedList(object): # ===================================================
         # Shift by moving the head.
         if shift > 0:                           # shift to the right
             shift %= self._size
-            for _ in xrange(shift):
+            for _ in range(shift):
                 self._head = self._head.prev
 
         elif shift < 0:                         # shift elements to the left
             shift %= -self._size
-            for _ in xrange(-shift):
+            for _ in range(-shift):
                 self._head = self._head.next
 
         # Make the list linear by disconnecting the tail from the head.
@@ -241,7 +239,7 @@ class LinkedList(object): # ===================================================
 
         elif kind == "selection":           # Selection sort.
             original_head = self._head          # track the original first node
-            for i in xrange(len(self) - 1):
+            for i in range(len(self) - 1):
                 minimum = self._head.value
                 target = self._head
                 for node in self._nodes():      # find the smallest value past
@@ -288,7 +286,7 @@ class LinkedList(object): # ===================================================
             raise IndexError("List index out of range")
 
         current = self._head
-        for _ in xrange(index):
+        for _ in range(index):
             current = current.next
         return current
 
@@ -332,7 +330,7 @@ class LinkedList(object): # ===================================================
                 index = abs(index) - 1
             if index >= len(self):
                 raise IndexError("List index out of range")
-            for _ in xrange(index):
+            for _ in range(index):
                 iterator.next()
             return iterator.next()
 
@@ -356,11 +354,11 @@ class LinkedList(object): # ===================================================
             if num_steps < 0:
                 return type(self)()
 
-            for _ in xrange(start):             # get the first value
+            for _ in range(start):             # get the first value
                 iterator.next()
             new_list = type(self)([iterator.next()])
-            for i in xrange(num_steps):
-                for _ in xrange(step - 1):      # step to the next value
+            for i in range(num_steps):
+                for _ in range(step - 1):      # step to the next value
                     iterator.next()
                 new_list.append(iterator.next())
             return new_list
@@ -431,10 +429,10 @@ class LinkedList(object): # ===================================================
                                 "of type '{}'".format(type(factor).__name__))
         new_list = LinkedList()
         if factor > 0:
-            for _ in xrange(factor):
+            for _ in range(factor):
                 new_list.extend(self)
         elif factor < 0:
-            for _ in xrange(-factor):
+            for _ in range(-factor):
                 new_list.extendleft(self)
         return new_list
 
@@ -522,7 +520,7 @@ class SortedList(LinkedList):
                                         "'{}'".format(type(factor).__name__))
         new_list = SortedList()
         for item in self:
-            for _ in xrange(factor):
+            for _ in range(factor):
                 new_list.add(item)
         return new_list
 
