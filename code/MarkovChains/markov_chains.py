@@ -7,18 +7,18 @@ SentenceGenerator: Makes a Markov chain out of a source file.
 Author: Shane McQuarrie
 """
 
+import os
 import numpy as np
-from os.path import isfile
-from itertools import product
-from scipy.linalg import norm
-from scipy.sparse import lil_matrix, csc_matrix
+from scipy import sparse
+from scipy import linalg as la
 
 
 # TODO: use nltk to parse documents in the SentenceGenerator classes.
 # TODO: put installation instructions for nltk in README.md.
+# TODO: convert to package.
 
 
-class MarkovChain(object): # ==================================================
+class MarkovChain: # ==========================================================
     """A finite, temporally homogeneous, first-order Markov Chain.
 
     Attributes:
@@ -34,8 +34,7 @@ class MarkovChain(object): # ==================================================
         # Validate the transition matrix.
         m,n = chain.shape
         if _sparse:
-            if not isinstance(chain, csc_matrix):
-                chain = csc_matrix(chain)
+            chain = sparse.csc_matrix(chain)
             col_sums = np.array(chain.sum(axis=0))[0]
         else:
             col_sums = chain.sum(axis=0)
@@ -78,7 +77,7 @@ class MarkovChain(object): # ==================================================
             start = self.states.index(start)
 
         path = [start]
-        for _ in xrange(n_steps):
+        for _ in range(n_steps):
             path.append(self._transition(path[-1]))
 
         return [self.states[i] for i in path] if labels else path
@@ -133,9 +132,9 @@ class MarkovChain(object): # ==================================================
             x0 /= x0.sum()
 
         # Run the iteration until convergence.
-        for i in xrange(maxiters):
+        for i in range(maxiters):
             x1 = self.chain.dot(x0)
-            if norm(x0 - x1) < tol:
+            if la.norm(x0 - x1) < tol:
                 return x1
             x0 = x1
 
@@ -206,7 +205,7 @@ class MarkovChainK(MarkovChain): # ===========================================
             start = [self.states.index(s) for s in start]
 
         path = list(start)
-        for _ in xrange(n_steps):
+        for _ in range(n_steps):
             current_state = self.products.index(path[-self.order:])
             path.append(self._transition(current_state))
 
@@ -302,7 +301,7 @@ class SentenceGenerator(MarkovChainK): # =====================================
                 n = len(sentence)
                 if n < order:
                     continue
-                sequences = [sentence[i:i+order] for i in xrange(n-order+1)]
+                sequences = [sentence[i:i+order] for i in range(n-order+1)]
                 if sequences[0] not in starts:
                     starts.append(sequences[0])
                 for sequence in sequences:
@@ -316,7 +315,7 @@ class SentenceGenerator(MarkovChainK): # =====================================
         # Initialize empty transition matrices of the appropriate size.
         self._start_probs = np.zeros(len(starts))
         if _sparse:
-            self.chain = lil_matrix((len(states), len(products)))
+            self.chain = sparse.lil_matrix((len(states), len(products)))
         else:
             self.chain = np.zeros((len(states), len(products)))
 
@@ -330,9 +329,9 @@ class SentenceGenerator(MarkovChainK): # =====================================
 
                 # Add 1's to the appropriate parts of the transition matrix.
                 indices = [states.index(word) for word in sentence]
-                seqs = [sentence[i:i+order] for i in xrange(n-order+1)]
+                seqs = [sentence[i:i+order] for i in range(n-order+1)]
                 seqs = [[states.index(i) for i in seq] for seq in seqs]
-                for i in xrange(n-order):
+                for i in range(n-order):
                     self.chain[seqs[i+1][-1], products.index(seqs[i])] += 1
 
                 # Account for start and end probabilities.
@@ -343,7 +342,7 @@ class SentenceGenerator(MarkovChainK): # =====================================
         self._start_probs /= self._start_probs.sum(axis=0)
         if _sparse:
             self.chain = self.chain.tocsc()
-            for j in xrange(self.chain.shape[1]):
+            for j in range(self.chain.shape[1]):
                 self.chain[:,j] /= self.chain[:,j].sum()
         else:
             self.chain /= self.chain.sum(axis=0)
@@ -370,14 +369,14 @@ class SentenceGenerator(MarkovChainK): # =====================================
         """Write num_sentences random sentences to the specified file."""
 
         # Check before overwriting an existing file.
-        if isfile(filename):
+        if os.path.isfile(filename):
             if raw_input("Overwrite {} [y/n]? ".format(filename)) != "y":
                 print("exiting...")
                 return
 
         # Write to the file.
         with open(filename, 'w') as out:
-            for _ in xrange(num_sentences):
+            for _ in range(num_sentences):
                 out.write(self.babble() + '\n')
 
     # End of SentenceGenerator Class ==========================================
