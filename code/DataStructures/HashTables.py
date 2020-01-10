@@ -3,16 +3,19 @@
 Author: Shane McQuarrie
 """
 
-class HashTable(object):
+class HashTable:
     """Hash Table Class
+
     Attributes:
         table (list): the actual hash table. Each element is a list.
         size (int): the number of items in the hash table.
         capacity (int): the maximum number of items in the table.
+
     Methods:
         load_factor()
         resize()
         insert()
+
     Notes:
         Do not allow a table of capacity 0 to be initialized.
         Use the built-in Python hash function.

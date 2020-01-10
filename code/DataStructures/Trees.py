@@ -16,7 +16,7 @@ Author: Shane McQuarrie
 
 import numpy as np
 
-class TreeNode(object):
+class TreeNode:
     """A Node class for Binary Search Trees. Contains some data, a
     reference to the parent node, and references to two child nodes.
     """
@@ -33,8 +33,8 @@ class TreeNode(object):
 # TODO: __len__() and self._size
 # TODO: max() and min()
 # TODO: __iter__()
-# Decide how to handle duplicates (other than a value error)
-class BinarySearchTree(object):
+# Decide how to handle duplicates (other than a value error) COUNT
+class BinarySearchTree:
     """Binary Search Tree data structure class.
     The 'root' attribute references the first node in the tree.
     """
@@ -219,7 +219,7 @@ class BinarySearchTree(object):
             return "[]"
         # If the tree is nonempty, create a list of lists.
         # Each inner list represents a depth level in the tree.
-        str_tree = [list() for i in xrange(self._height(self._root) + 1)]
+        str_tree = [list() for i in range(self._height(self._root) + 1)]
         visited = set()                         # Track visited nodes
 
         def _visit(current, depth):
