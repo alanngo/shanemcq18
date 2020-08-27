@@ -1,4 +1,6 @@
-<p align="left"><img src="https://github.com/shanemcq18/shanemcq18/raw/master/img/signature.svg" width="600"></p>
+![](./img/signature.svg)
+
+<table><tr><td valign="top" width="66%">
 
 ### Recent Publications
 
@@ -21,3 +23,21 @@
     year      = {2020},
     publisher = {SIAM}
 }</pre></details>
+
+</td><td valign="top" width="34%">
+
+### About Me
+
+- [Publications]()
+
+- [Reports]()
+
+- [Brief Biography]()
+
+- [Curriculum Vitae]()
+
+- [Résumé]()
+
+</td>
+
+<!-- ![Shane's github stats](https://github-readme-stats.vercel.app/api?username=shanemcq18&count_private=true&hide=stars,issues&show_icons=true) -->
