@@ -1,6 +1,6 @@
 <p align="left"><img src="https://github.com/shanemcq18/shanemcq18/raw/master/img/signature.svg" width="600"></p>
 
-### Recent Publications
+### Recent Preprints / Publications
 
 - [**Data-driven reduced-order models via regularized operator inference for a single-injector combustion process**](https://arxiv.org/abs/2008.02862).<details><summary>BibTeX</summary><pre>
 @article{MHW2020regOpInfCombustion,
