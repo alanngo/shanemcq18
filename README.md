@@ -38,6 +38,6 @@
 
 - [Résumé]()
 
-</td>
+</td></tr></table>
 
 <!-- ![Shane's github stats](https://github-readme-stats.vercel.app/api?username=shanemcq18&count_private=true&hide=stars,issues&show_icons=true) -->
