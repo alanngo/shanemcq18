@@ -74,8 +74,8 @@
 \newcommand{\education}[3]{%
     \par\noindent\textbf{#1} \tabto{.5in}\hangindent=.5in #2\\#3}
 
-\newcommand{\experience}[4]{%
-    \par\noindent\textbf{#1} \tabto{1in}\hangindent=1in #2, \textit{#3}}% \\  #4}
+\newcommand{\experience}[3]{%
+    \par\noindent\textbf{#1} \tabto{1in}\hangindent=1in #2, \textit{#3}}
 \newcommand{\award}[3]{%
     \par\noindent\textbf{#1} \tabto{1in}\hangindent=1in #2, \textit{#3}}
 
