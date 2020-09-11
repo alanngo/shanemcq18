@@ -1,8 +1,4 @@
-<p align="left"><img src="https://github.com/shanemcq18/shanemcq18/raw/master/img/signature.svg" width="600"></p>
-
 <table cellspacing="0" cellpadding="0"><tr><td valign="top">
-
-<!-- width="300" cellspacing="0" cellpadding="0" -->
 
 ### Recent Publications
 
@@ -79,9 +75,9 @@
 
 </td></tr></table>
 
-Graphics on this page made possible by
-<p align="left">
-    <a href="https://bfy.tw/Ox8q"><img src="https://img.shields.io/badge/Google%20Search-4285F4.svg?style=flat-square&logo=google&logoColor=white" height="25"/></a>
-    <a href="https://shields.io/"><img src="https://img.shields.io/badge/Shields-IO-green.svg?style=flat-square&logo=none" height="25"/></a>
-    <a href="https://simpleicons.org/"><img src="https://img.shields.io/badge/Simple%20Icons-111111.svg?style=flat-square&logo=simple-icons&logoColor=white" height="25"/></a>
+<p align="right">
+    Graphics on this page powered by
+    <a href="https://bfy.tw/Ox8q"><img src="https://img.shields.io/badge/Google%20Search-4285F4.svg?style=flat-square&logo=google&logoColor=white" height="15"/></a>
+    <a href="https://shields.io/"><img src="https://img.shields.io/badge/Shields-IO-green.svg?style=flat-square&logo=none" height="15"/></a>
+    <a href="https://simpleicons.org/"><img src="https://img.shields.io/badge/Simple%20Icons-111111.svg?style=flat-square&logo=simple-icons&logoColor=white" height="15"/></a>
 </p>
