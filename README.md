@@ -66,7 +66,7 @@
     <a href="https://www.anaconda.com/"><img src="https://img.shields.io/badge/-42B029.svg?&style=flat-square&logo=anaconda&logoColor=white" height="25"/></a>
     <a href="https://numpy.org/"><img src="https://raw.githubusercontent.com/numpy/numpy/master/branding/logo/logomark/numpylogoicon.svg" height="25"/></a>
     <a href="https://scipy.org/"><img src="https://www.scipy.org/_static/images/scipy_med.png" height="25"/></a>
-    <a href="https://matplotlib.org/"><img src="https://matplotlib.org/_static/logo2.svg" height="25"/></a>
+    <a href="https://matplotlib.org/"><img src="https://github.com/shanemcq18/shanemcq18/raw/master/img/matplotlib-logo.svg" height="25"/></a>
     <a href="https://scikit-learn.org/stable/"><img src="https://github.com/scikit-learn/scikit-learn/raw/master/doc/images/scikit-learn-logo-notext.png" height="25"/></a>
     <a href="https://pandas.pydata.org/"><img src="https://img.shields.io/badge/-150458.svg?style=flat-square&logo=pandas&logoColor=white" height="25"/></a>
     <a href="https://stackoverflow.com/"><img src="https://img.shields.io/badge/-FE7A16.svg?style=flat-square&logo=stack-overflow&logoColor=white" height="25"/></a>
